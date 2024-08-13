@@ -47,7 +47,7 @@ body {
     
   }
   .mostruario igm: hover{
-    opacity: 1;
+    opacity: 0;
     border: 1px solid gren
   }
   .categoria h2{
