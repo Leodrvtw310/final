@@ -53,7 +53,6 @@ p {
 
 .mostruario img:hover {
   opacity: 1;
-  transform: scale(1.5); /* Aumenta o tamanho da imagem em 50% */
   border: 1px solid green; /* Corrige o erro de cor */
 }
 
