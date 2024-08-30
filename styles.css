@@ -1,11 +1,3 @@
-Claro! Parece que há alguns pequenos erros e inconsistências no seu código CSS. Vou corrigi-los para você:
-
-1. Corrigi o seletor `.mostruario igm: hover` para `.mostruario img:hover`, pois parece que você quis aplicar o efeito ao passar o mouse sobre as imagens.
-2. Corrigi o erro de digitação na cor da borda de `gren` para `green`.
-
-Aqui está o código corrigido:
-
-```css
 body {
   color: white;
   background: black;
