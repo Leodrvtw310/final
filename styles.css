@@ -48,16 +48,15 @@ p {
 .mostruario img {
   opacity: 0.5;
   height: 200px;
+  transition: all 0.3s ease; /* Adiciona uma transição suave para as mudanças */
 }
 
 .mostruario img:hover {
-  opacity: 0;
-  border: 1px solid green; /* Corrigido para "green" */
+  opacity: 1;
+  transform: scale(1.5); /* Aumenta o tamanho da imagem em 50% */
+  border: 1px solid green; /* Correção do erro de cor */
 }
 
 .categoria h2 {
   color: rgb(42, 122, 228);
 }
-```
-
-Agora, ao passar o mouse sobre uma imagem dentro de `.mostruario`, a opacidade mudará para 0 e a borda será verde. Se precisar de mais ajustes, é só avisar!
