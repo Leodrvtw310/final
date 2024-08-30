@@ -1,55 +1,71 @@
+Claro! Parece que há alguns pequenos erros e inconsistências no seu código CSS. Vou corrigi-los para você:
+
+1. Corrigi o seletor `.mostruario igm: hover` para `.mostruario img:hover`, pois parece que você quis aplicar o efeito ao passar o mouse sobre as imagens.
+2. Corrigi o erro de digitação na cor da borda de `gren` para `green`.
+
+Aqui está o código corrigido:
+
+```css
 body {
-    color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px
-  }
-  
-  header {
-    border-bottom : solid 2px rgb(42, 122, 228);
-    padding:  20px;
-    font-size: 20px;
-    color: rgb(42, 122, 228);
-    
-  }
-  .chamada {
-    background: rgb(184,156,213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-  }
-  .normal{ margin-right:5%;
-    
-  }
-  h1{
-    font-size: 40px
-  }
-  p{
-    font-size: 40px
-  }
-  
-  .mostruario{
-    display: flex;
-    overflow-x: auto;
-    gap: 10px
-  }
-  .categoria{
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-top: 50px
-    
-  }
-  .mostruario img{
-    opacity: 0.5;
-    height: 200px
-    
-  }
-  .mostruario igm: hover{
-    opacity: 0;
-    border: 1px solid gren
-  }
-  .categoria h2{
-    color: rgb(42, 122, 228);
-  }
+  color: white;
+  background: black;
+  margin: 0;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 20px;
+  color: rgb(42, 122, 228);
+}
+
+.chamada {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.normal {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 40px;
+}
+
+.mostruario {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.mostruario img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.mostruario img:hover {
+  opacity: 0;
+  border: 1px solid green; /* Corrigido para "green" */
+}
+
+.categoria h2 {
+  color: rgb(42, 122, 228);
+}
+```
+
+Agora, ao passar o mouse sobre uma imagem dentro de `.mostruario`, a opacidade mudará para 0 e a borda será verde. Se precisar de mais ajustes, é só avisar!
